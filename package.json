@@ -1,6 +1,6 @@
 {
   "name": "react-enhanced-button",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Library for a Custom button",
   "main": "lib/customButton.js",
   "types": "lib/customButton.d.ts",
