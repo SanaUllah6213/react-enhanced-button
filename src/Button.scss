@@ -1,0 +1,70 @@
+.main-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 5px 17px;
+    border-radius: 6px;
+    justify-content: center;
+    cursor: pointer;
+  }
+.primary-button {
+  border: 1px solid hwb(175 6% 27%);
+  background-color: #4ccec3;
+  color: white;
+  cursor: pointer;
+}
+.default-button{
+  background-color: black;
+}
+
+.primary-button:hover {
+  border-color: #10baac;
+  background: #10baac;
+  color: white;
+  font-weight: bold;
+}
+
+.secondary-button {
+  border: 1px solid #10baac;
+  background: #f3fcfb;
+  color: #10baac;
+}
+
+.secondary-button:hover {
+  border-color: 1px solid #10baac;
+  background: #dcdfdf;
+  color: #10baac;
+}
+.success-button {
+  border-radius: 4px;
+  border: 1px solid #4a8f9f;
+  background-color: white;
+}
+
+.success-button:hover {
+  border-color: #218c75;
+  background: #218c75;
+  color: white;
+}
+
+.pending-button {
+  border-radius: 4px;
+  border: 1px solid #08496d;
+  background-color: white;
+}
+
+.pending-button:hover {
+  border-color: #08496d;
+  background: #08496d;
+  color: white;
+}
+
+.btn-text {
+  font-size: 16px;
+  font-weight: 500;
+  min-width: max-content;
+
+}
+.rotate-icon{
+rotate: 90deg;}

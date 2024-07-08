@@ -1,0 +1,34 @@
+{
+  "name": "react-enhanced-button",
+  "version": "1.0.0",
+  "description": "A Library for a Custom button",
+  "main": "/lib/customButton.tsx",
+  "types": "lib/customButton.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "custom button",
+    "react button",
+    "enhanced button"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanaUllah6213/react-enhanced-button.git "
+  },
+  "author": "Sana Ullah <sanaullah.repo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/prop-types": "^15.7.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@iconify/react": "^5.0.1",
+    "react": "^18.3.1",
+    "react-icons": "^5.2.1"
+  },
+  "files": ["lib/**/*"]
+}
