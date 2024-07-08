@@ -4,11 +4,12 @@
   "description": "A Library for a Custom button",
   "main": "lib/customButton.js",
   "types": "lib/customButton.d.ts",
-  "scripts": {
-    "build:scss": "node-sass src/Button.scss lib/Button.css",
-    "build": "npm run build:scss && tsc",
-    "prepare": "npm run build"
-  },
+ "scripts": {
+  "build:scss": "node-sass src/Button.css lib/Button.css",
+  "build": "npm run build:scss && tsc",
+  "prepare": "npm run build"
+}
+,
   "keywords": [
     "custom button",
     "react button",

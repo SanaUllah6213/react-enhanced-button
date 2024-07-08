@@ -3,7 +3,7 @@ import React from "react";
 import { ReactNode, CSSProperties, MouseEventHandler } from "react";
 import { Icon } from "@iconify/react";
 import { FaSpinner } from "react-icons/fa";
-import "./Button.scss";
+import "./Button.css";
 
 export type CustomButtonProps = {
     children?: ReactNode;
