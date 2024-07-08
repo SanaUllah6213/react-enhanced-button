@@ -1,9 +1,9 @@
 {
   "name": "react-enhanced-button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Library for a Custom button",
-  "main": "lib/CustomButton.js",
-  "types": "lib/CustomButton.d.ts",
+  "main": "lib/customButton.js",
+  "types": "lib/customButton.d.ts",
   "scripts": {
     "build:scss": "node-sass src/Button.scss lib/Button.css",
     "build": "npm run build:scss && tsc",
