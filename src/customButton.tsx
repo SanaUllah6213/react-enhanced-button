@@ -53,6 +53,7 @@ export default function CustomButton({
             className={`${buttonClass} ${className} main-btn`}
             disabled={disabled || loading}
         >
+            
             {loading ? <FaSpinner size={20} color="#fff" /> : null}
             {showPlusButton ? <Icon icon="ic:baseline-plus" height="24" /> : null}
             {buttonIcon ? <Icon icon={buttonIcon} className={iconStyle} height="24" /> : null}
