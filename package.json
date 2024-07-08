@@ -1,11 +1,12 @@
 {
   "name": "react-enhanced-button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Library for a Custom button",
-  "main": "lib/customButton.tsx",
-  "types": "lib/customButton.d.ts",
+  "main": "lib/CustomButton.js",
+  "types": "lib/CustomButton.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build:scss": "node-sass src/Button.scss lib/Button.css",
+    "build": "npm run build:scss && tsc",
     "prepare": "npm run build"
   },
   "keywords": [
@@ -23,7 +24,8 @@
     "@types/prop-types": "^15.7.12",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "node-sass": "^7.0.1"
   },
   "dependencies": {
     "@iconify/react": "^5.0.1",
